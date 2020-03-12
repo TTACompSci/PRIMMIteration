@@ -14,9 +14,14 @@
         menuOption = validateMenuOption(1, 3)
         Select Case menuOption
             Case 1
-
+                'FOR loops
+                DisplayForLoops()
             Case 2
+                'REPEAT UNTIL loops
+                DisplayRepeatUntilLoops()
             Case 3
+                'WHILE loops
+                DisplayWhileLoops()
         End Select
 
         Console.ReadLine()
